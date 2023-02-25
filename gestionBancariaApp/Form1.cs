@@ -55,6 +55,9 @@ namespace gestionBancariaApp
             txtSaldo.Text = cuenta.obtenerSaldo().ToString();
         }
 
+        private void txtCantidad_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
